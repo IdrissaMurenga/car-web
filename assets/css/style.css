@@ -1,0 +1,378 @@
+/* start of color and fonts properties */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+.header-font{ font-family: 'Roboto', sans-serif;} 
+.text-font{font-family: 'Open Sans', sans-serif;}
+.bg{background-color: #000000;}
+body{ color: #fff;}
+.container{padding: 1rem;}
+/* end of color and fonts properties */
+
+/* section 1 start */
+.section1{
+    background-image: url(/assets/images/black\ lambo\ bg.jpeg);
+    background-position: 47% 30%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+input{
+    color: #fff;
+    margin-left: 2.5rem;
+    padding: 0.5rem 0;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    padding: 2rem;
+}
+.section1-p{
+    padding: 0 0.3rem;
+    text-align: center;
+    line-height: 2;
+
+}
+span{
+    font-weight: 700;
+}
+.section1-img{
+    width: 5rem;
+    padding: 3rem 0;
+    margin: 0 auto;
+}
+/* section 1 end */
+
+/* section 2 start */
+.section2{
+    text-align: center;
+}
+.section2-p , h3{
+    font-weight: 800;
+}
+.img-txt{
+    padding: 2rem 0;
+}
+.img, h3{
+    padding-bottom: 2rem;
+}
+.img{
+    width: 5rem;
+    margin: 0 auto;
+}
+h3{
+    font-size: 1.5rem;
+}
+.txt{
+    padding: 0 1.2rem;
+    padding-bottom: 3rem;
+    color: #999999;
+}
+a{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f17c0e;
+    border: 2px solid #f17c0e;
+    border-radius: 5rem;
+}
+a:hover{
+    font-weight:700;
+    color: #fff;
+    background-color: #f17c0e;
+}
+/* end of section 2 */
+
+/* section 3 end */
+.section3{
+    padding: 2rem;
+}
+.section3-text1{
+    padding: 2rem 0;
+}
+.section3-h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+.section3-p{
+    line-height: 1.3;
+    font-weight: 500;
+    font-size: large;
+}
+.section3-text2{
+    background-color: #f17c0e;
+    padding: 2rem;
+}
+h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+ol > li{
+    padding: 1rem;
+    font-weight: 500;
+    line-height: 2;
+}
+/* section 3 end */
+
+/* section 4 start */
+.section4-img{
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 290px;
+    height: 290px;
+
+}
+/* section 4 end */
+
+/* section 5 start */
+.section5{
+    padding: 5rem 1rem;
+}
+.section5-h2{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+i{
+    font-style: italic;
+}
+.section5-h6{
+  font-size: 2.5rem;
+  text-align: end;  
+}
+.span{
+    color: #f17c0e;
+}
+/* section 5 end */
+
+/* section 6 start */
+.section6{
+    padding: 1.5rem;
+}
+.section6-h2{
+   font-size: 2.5rem;
+   font-weight: 800;
+   padding: 2rem 0; 
+}
+h5{
+   padding-bottom: 1rem;
+   padding-right: 3rem;
+   font-size: large;
+   line-height: 1.5;
+   font-weight: 600;
+   text-decoration: underline; 
+}
+.section6-p1{
+    padding: 2rem 1rem;
+    line-height: 2;
+    background-color: #f17c0e;
+}
+.section6-p2{
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+.section6-img{
+    background-image: url(/assets/images/car\ store.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+/* section 6 end */
+
+/* section 7 start */
+.section7{
+    padding: 2rem 0;
+}
+.section7-texts{
+    padding: 2rem;
+}
+.section7-h1{
+    font-size: 3rem;
+}
+.section7-p{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.section7-p1 {
+    display: none;
+}
+.section7-h6{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+.section7-h6:active{
+    background-color: #f17c0e;
+}
+
+.section7-img{
+    background-image: url(/assets/images/lamborghinicars.jpeg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+.section7-h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: end;
+    padding: 1rem;
+}
+/* section 7 end */
+
+/* section 8 start */
+.section8{
+    padding: 4rem 1rem;
+}
+.section8-h2{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+.section8-p{
+    font-size: large;
+    line-height: 1.5;
+}
+.section8-input{
+    margin: 1rem 0;
+    
+}
+textarea,.section8-input{
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+textarea{
+    background-color: transparent;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width:320px) and (max-width:340px){
+    input{
+        margin-left: 0.80rem;
+    }
+    .section6-img{
+        margin: 0 -1rem;
+    }
+}
+@media screen and (min-width:700px) and (max-width:884px){
+    .section1-textes{
+        padding-top: 3rem;
+    }
+    .section2, .section3{
+        padding: 5rem;
+    }
+    .section2-img , .section4{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section3, .section5-text, .section6-texts, .section7-img-txt, .section8{
+        display: flex;
+    }
+    .section3, .section5-text{  
+        gap: 5rem;
+    }
+    .section3-text2{
+        min-width: 5rem;
+    }
+    .section5-text{   
+        padding: 3rem;
+    }
+    .section5-h2{
+        width: 25rem;
+    }
+    .section6-texts{
+        padding: 0 4rem;
+    }
+    .texte , .section3-text1{
+        max-width: 20rem;
+    }
+    .section6-img{
+        margin: 15rem auto;
+    }
+    .section7-texts{
+        padding: 0 5rem ;
+    }
+    .section7-h2{
+        max-width: 22rem;
+        padding-right: 7rem;
+    }
+    .section7-img{
+        width: 400px;
+        height: 300px;
+    }
+    .section8{   
+        padding: 2rem 5rem;
+    }
+    .section8-p{
+        padding-right: 5rem;
+    }
+    .form{
+        padding-right: 4rem;
+    }
+}
+@media (min-width:1114px){
+    .section2-img, .section3, .section4, .section5-text, .section6-texts, .section7-img-txt, .section8{
+        display: flex;
+    }
+    .section3, .section5-text{  
+        gap: 5rem;
+    }
+    .section3-text1{
+        max-width: 35rem;
+    }
+    .section5-text{   
+        padding:  1rem 3.5rem;
+    }
+    .section5-h2{
+        width: 40rem;
+    }
+    .section5-h6{
+        padding-top: 15rem;
+    }
+    .section6-texts{
+        padding: 0 4rem;
+    }
+    .texte{
+        max-width: 30rem;
+    }
+    .section6-img{
+        margin: 10rem auto;
+        width: 470px;
+        height: 470px;
+    }
+    .section7-texts{
+        padding:  10rem;
+    }
+    .section7-img{
+        width: 950px;
+        height: 400px;
+    }
+    .section7-h2{
+        max-width: 27rem;
+        padding-right: 5rem;
+        padding-top: 6rem;
+    }
+    .section8{
+        margin: 0 auto;
+        padding: 3rem 5rem;
+    }
+    .section8-p{
+        max-width: 50rem;
+        padding-right: 7rem;
+    }
+}
